@@ -6,3 +6,4 @@
 - include_tasks: tom.yml
 - include_tasks: tomextract.yml
 - include_tasks: tompath.yml
+- include_tasks: restart.yml
