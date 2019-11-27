@@ -4,9 +4,9 @@
    insertbefore: #path:
    line: export JAVA_HOME=/opt/jdk1.8.0_212 
    state: present
-- name: write line
+- name: write line at
   lineinfile:
    path: /home/ansible/.bashrc
-   insertafter: export JAVA_HOME=/opt/jdk1.8.0_212
+   insertbefore: export JAVA_HOME=/opt/jdk1.8.0_212
    line: export PATH=$PATH:/opt/jdk1.8.0_212/bin  
    state: present
