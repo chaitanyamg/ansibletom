@@ -3,3 +3,5 @@
 - include_tasks: update.yml
 - include_tasks: extract.yml
 - include_tasks: restart.yml
+- include_tasks: tom.yml
+- include_tasks: tomextract.yml
