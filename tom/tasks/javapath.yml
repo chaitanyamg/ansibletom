@@ -1,0 +1,6 @@
+- name: write line
+    lineinfile:
+     path: /root/.bash_profile
+     insertbefore: #path:
+     line: export JAVA_HOME=/opt/jdk1.8.0_212 
+     state: present
