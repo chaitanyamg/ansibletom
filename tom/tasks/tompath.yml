@@ -1,0 +1,7 @@
+- name: write line at
+  lineinfile:
+   path: /home/ansible/.bashrc
+   insertbefore: export PATH=$PATH:/opt/jdk1.8.0_212/bin
+   line: export PATH=$PATH:/opt/apache-tomcat-8.5.47/bin  
+   state: present
+   
