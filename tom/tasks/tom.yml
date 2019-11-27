@@ -1,0 +1,4 @@
+- name: download tomcat
+  get_url:
+   url: http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.5/bin/apache-tomcat-8.5.5.tar.gz
+   dest: /opt
