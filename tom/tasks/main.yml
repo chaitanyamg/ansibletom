@@ -1,2 +1,4 @@
 ---
 # tasks file for tom
+- include_tasks: update.yml
+- include_tasks: extract.yml
